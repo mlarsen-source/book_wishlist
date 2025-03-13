@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  main{
+    width:40rem;
+    margin-top: 2rem;;
+    background-color: white;
+    border-radius: .2rem;
+    box-shadow: 1px 1px 2px 2px gray;
+    padding: 1rem;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  #headingHr{
+    height: .2rem;
+    background-color: crimson;
+  }
+
+  button{
+    align-self: center;
+    background-color: blue;
+    color: white;
+    border-radius: .2rem;
+    padding: .5rem;
+    border: none;
+  }
+  
