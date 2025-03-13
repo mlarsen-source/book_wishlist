@@ -10,24 +10,25 @@
  
   <main>
     <heading>
-      <h1>Book Wishlist</h1>
+      <h1>Book Wishlist Form</h1>
+      <hr id="headingHr">
     </heading>
 
     <form action="summary" method="post" id="bookForm">
       <fieldset>
-        <legend>Enter Book Title:</legend>
+        <legend>Please Enter a Book Title:</legend>
         <label>
           <input type="text" id="title" name="title"> 
         </label>
       </fieldset>
 
       <fieldset>
-        <legend>Enter Comments:</legend>
+        <legend>Please Enter Your Comments:</legend>
           <textarea  id="comments" name="comments" rows="4"> </textarea>
       </fieldset>
 
       <fieldset>
-        <legend>Select a Rating:</legend>
+        <legend>Please Select a Rating:</legend>
           <select id=rating" name="rating">
             <option value="1"> 1 Star</option> </label>
             <option value="2"> 2 Stars</option> </label>
@@ -39,9 +40,6 @@
       </fieldset>
 
       <button type="submit">Submit</button>
-
-
-
 
     </form>
   </main>
